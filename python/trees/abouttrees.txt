@@ -1,0 +1,22 @@
+Why Trees?
+
+1. One reason to use trees might be because you want to store information that naturally forms a hierarchy. For example, the file system on a computer.
+
+2. Trees (with some ordering e.g., BST) provide moderate access/search (quicker than Linked List and slower than arrays).
+
+3. Trees provide moderate insertion/deletion (quicker than Arrays and slower than Unordered Linked Lists).
+
+4. Like Linked Lists and unlike Arrays, Trees don’t have an upper limit on number of nodes as nodes are linked using pointers.
+
+
+
+Full Binary Tree: A Binary Tree is a full binary tree if every node has 0 or 2 children. The following are the examples of a full binary tree. We can also say a full binary tree is a binary tree in which all nodes except leaf nodes have two children.
+
+Complete Binary Tree: A Binary Tree is a complete Binary Tree if all the levels are completely filled except possibly the last level and the last level has all keys as left as possible
+
+Perfect Binary Tree A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level.
+
+Balanced Binary Tree
+A binary tree is balanced if the height of the tree is O(Log n) where n is the number of nodes.
+
+A degenerate (or pathological) tree A Tree where every internal node has one child. Such trees are performance-wise same as linked list.
